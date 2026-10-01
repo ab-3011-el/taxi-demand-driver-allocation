@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+spark-ml-venv/
+taxi-dashboard-venv/
+
+# Large datasets
+data/raw/*.csv
+*.csv
+
+# Spark generated output
+data/processed/
+data/features/
+data/results/
+
+# HDFS / Hadoop
+*.crc
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
